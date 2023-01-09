@@ -13,38 +13,38 @@ const Project = () => {
     const ProjectData = [
         {
             bgImg: box1,
-            title: "Web Blog 3",
-            about: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            title: "Amazon E-Commerce",
+            about: "An eCommerce website that enables users purchase as many items as possible.",
             link: "http://google.com"
         },
         {
             bgImg: box2,
-            title: "Web Blog 3",
-            about: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            title: "Blockchain Landing Page",
+            about: "An insight of a blockchain page where people trade their assets.",
             link: "gffgfgfgfgfgfg"
         },
         {
             bgImg: box3,
-            title: "Web Blog 3",
-            about: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            title: "Cocktail DATABASE",
+            about: "A web app to help search for the preparation methods of your favourite cocktails. Built with React.JS, CSS3 and thecocktaildbAPI.",
             link: "gffgfgfgfgfgfg"
         },
         {
             bgImg: box4,
-            title: "Web Blog 3",
-            about: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            title: "FrontEnd Only Interactive Credit Card Generator",
+            about: "A single-page credit card generator app using React.JS,useReducer Hook and Context API for state management. The design was from a FrontEndMentor Challenge",
             link: "gffgfgfgfgfgfg"
         },
         {
             bgImg: box5,
-            title: "Web Blog 3",
-            about: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            title: "TO'S Productivity",
+            about: "A productivity app that helps users keep track of their daily tasks. It's fitted with authentication and authorization for easy access anywhere and anytime",
             link: "gffgfgfgfgfgfg"
         },
         {
             bgImg: box6,
-            title: "Web Blog 3",
-            about: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            title: "Iconator",
+            about: "A web app that allow users generate favicons of different sizes, formats and respective HTML code for easy implementation.",
             link: "gffgfgfgfgfgfg"
         },
     ]
@@ -57,11 +57,12 @@ const Project = () => {
                 return (
                     <div className='card'>
                         <div className="card-img">
-                            <a href="hghghg">
+                            <a href="home">
                                 <div className="overlays"></div>
                                 <img className='image' src={project.bgImg} alt="img" />
                                 <div className="card-details">
                                     <h1>Web 3 Blog</h1>
+                                    <span>{project.title}</span> <br /><br />
                                     <span>{project.about}</span>
                                     <div className="live">
                                         <a href={project.link}>

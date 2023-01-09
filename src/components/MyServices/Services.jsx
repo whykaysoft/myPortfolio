@@ -21,9 +21,8 @@ const Services = () => {
                 </div>
                 <span>Frontend Developer</span>
             </div>
-            <p>Lorem, ipsum dolor sit amet consectetur 
-               adipisicing elit. Cumque reiciendis, numquam ullam dicta quasi architecto minus ex aliquam culpa, 
-               animi at asperiores nam repellendus autem sunt praesentium debitis nesciunt facere.
+            <p>
+               I build components that interact with users, aiming at meeting user requirements and delivering a positive user experience.
             </p>
         </div>
         <div className='container1'>
@@ -33,9 +32,8 @@ const Services = () => {
                 </div>
                 <span>Backend Developer</span>
             </div>
-            <p>Lorem, ipsum dolor sit amet consectetur 
-               adipisicing elit. Cumque reiciendis, numquam ullam dicta quasi architecto minus ex aliquam culpa, 
-               animi at asperiores nam repellendus autem sunt praesentium debitis nesciunt facere.
+            <p>
+                I work on the Server side, that recieves requests from the clients, and contains the logic to send the appropriate data block to the client.
             </p>
         </div>
         <div className='container1'>
@@ -45,9 +43,8 @@ const Services = () => {
                 </div>
                 <span>Data Analyst</span>
             </div>
-            <p>Lorem, ipsum dolor sit amet consectetur 
-               adipisicing elit. Cumque reiciendis, numquam ullam dicta quasi architecto minus ex aliquam culpa, 
-               animi at asperiores nam repellendus autem sunt praesentium debitis nesciunt facere.
+            <p>
+                I review data to identify key insights into a business's customers and ways the data can be used to solve problems.
             </p>
         </div>
     </div>
